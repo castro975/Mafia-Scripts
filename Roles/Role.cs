@@ -9,5 +9,7 @@ public struct Role{
 		None
 	}
 	public Alliance alliedTeam;
+	
+	//Testing GitHub commits and such
 }
 
