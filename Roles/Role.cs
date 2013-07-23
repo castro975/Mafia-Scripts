@@ -3,14 +3,15 @@ using System.Collections;
 
 public class Role{
 	#region Information
-	public string roleName;
+	public string roleName; 			//The name of the role. Most likely the name of the class as well (Doctor, Sheriff, Godfather, etc.)
 	
 	public enum Alliance{
 		Town,
 		Mafia,
 		None
-	}
-	public Alliance alliedTeam;
+	}			 //An enum (List-like data structure) containing all of the teams in the game
+	public Alliance alliedTeam;			//The actual team our character is associated with. 
+										//The above enum lists the possible teams, but it doesn't give our character one to use
 	#endregion
 	
 	#region Attributes
